@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="쎄컨드 액티비티\n입니다!"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/interface_check_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼클릭"
+        android:textSize="30sp"
+        />
+
+</LinearLayout>
